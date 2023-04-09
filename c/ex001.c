@@ -4,6 +4,7 @@
 
 int main ()
 {
+    setlocale(LC_ALL, "Portuguese_Brazil");
     int ano_nascimento = 1994;
     int ano_atual = 2023;
     int resultado = (ano_atual - ano_nascimento);
